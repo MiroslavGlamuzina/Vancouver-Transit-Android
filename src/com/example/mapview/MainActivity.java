@@ -1,19 +1,5 @@
 package com.example.mapview;
 
-/* 
- TEAM MEMBERS
- --------------
- Miroslav Glamuzina 
- Nobert Yang 
- Rushab raval
- Bert Cheung
-
- INFO
- -----
- SIMON LI
- Mobile dev course (android/java)
-
- */
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
