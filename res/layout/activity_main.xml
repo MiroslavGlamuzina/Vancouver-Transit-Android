@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="60"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <TextView
+            android:id="@+id/fillText"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:text="Where ya goin&apos;?" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/btn_gps"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#58D3F7"
+            android:clickable="true"
+            android:text="Get GPS"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/nearest"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#58D3F7"
+            android:text="Nearest SkyTrain"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_dir"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#58D3F7"
+            android:clickable="true"
+            android:text="Get Directions"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Spinner
+            android:id="@+id/spinner_stations"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#CEE3F6" />
+    </LinearLayout>
+
+</LinearLayout>

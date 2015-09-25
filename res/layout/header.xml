@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81DAF5"
+    android:orientation="horizontal"
+    android:weightSum="9" >
+
+    <Button
+        android:id="@+id/activity_home"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#58D3F7"
+        android:clickable="true"
+        android:text="Home"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/activity_two"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#58D3F7"
+        android:clickable="true"
+        android:text="Search Bus"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/activity_four"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#58D3F7"
+        android:clickable="true"
+        android:text="Info"
+        android:textStyle="bold" />
+
+</LinearLayout>

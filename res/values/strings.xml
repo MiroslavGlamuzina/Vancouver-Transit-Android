@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mapview</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="spinnerstations">
+        <item>Select Your Destination HERE!</item>
+        <item>VCC Clark</item>
+        <item>Commercial - Broadway</item>
+        <item>Renfrew</item>
+        <item>Rupert</item>
+        <item>Gilmore</item>
+        <item>Brentwood Town Center</item>
+        <item>Holdom</item>
+        <item>Sperling Burnaby Lake</item>
+        <item>Lake City Way</item>
+        <item>Production Way University</item>
+        <item>Lougheed Town Center</item>
+        <item>Braid</item>
+        <item>Sapperton</item>
+        <item>Columbia</item>
+        <item>New WestMinster</item>
+        <item>22nd Street</item>
+        <item>Edmonds</item>
+        <item>Royal Oak</item>
+        <item>Metrotown</item>
+        <item>Patterson</item>
+        <item>Joyce</item>
+        <item>29th Avenue</item>
+        <item>Naniamo</item>
+        <item>Main Street Science World</item>
+        <item>Stadium China Town</item>
+        <item>Granville</item>
+        <item>Burrard</item>
+        <item>Scott Road</item>
+        <item>Gateway</item>
+        <item>Surrey Central</item>
+        <item>King George</item>
+        <item>Waterfront</item>
+        <item>Vancouver City Center</item>
+        <item>Yaletown</item>
+        <item>Olympic Village</item>
+        <item>City Hall</item>
+        <item>King Edward</item>
+        <item>Oakridge</item>
+        <item>Langara</item>
+        <item>Marine Drive</item>
+        <item>Bridgeport</item>
+        <item>Templeton</item>
+        <item>Sea Island Center</item>
+        <item>YVR - Airport</item>
+        <item>Aberdeen</item>
+        <item>Lansdowne</item>
+        <item>Richmond - Brighouse</item>
+        <item>Port Moody</item>
+        <item>Coquitlam Central</item>
+        <item>Port Coquitlam</item>
+        <item>Pitt Meadows</item>
+        <item>Maple Meadows</item>
+        <item>Port Haney</item>
+        <item>Mission</item>
+    </string-array>
+
+</resources>
